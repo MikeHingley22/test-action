@@ -1,0 +1,15 @@
+name: 'My GitHub Action'
+description: 'A description of my action'
+inputs:
+  example-input:
+    description: 'An example input'
+    required: true
+outputs:
+  example-output:
+    description: 'An example output'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  icon: 'award'
+  color: 'green'
