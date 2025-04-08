@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do Shared Action
-      - uses: MikeHingley22/test-action@latest
+      - uses: MikeHingley22/test-action@a40bd571bd12436b15a72b969ea622a3cd68264c
       - uses: actions/checkout@v4
       - name: Run a one-line script
         run: echo Hello, world!
